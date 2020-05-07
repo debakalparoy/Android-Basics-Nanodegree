@@ -3,4 +3,4 @@
 
 ## [Project 1: Single Screen Application](https://github.com/DivineRoot/Android-Basics-Nanodegree/tree/master/RootsCafe)
 
-<img src="RootsCafe/ScreenShots/Roots_Cafe.jpg">
+![](RootsCafe/Screenshots/Roots_Cafe.jpg)
