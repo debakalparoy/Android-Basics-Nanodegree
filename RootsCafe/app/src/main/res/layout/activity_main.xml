@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:contentDescription="@string/coffee_girl"
+            android:scaleType="fitEnd"
+            android:src="@drawable/about" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/banner"
+            android:scaleType="fitStart"
+            android:src="@drawable/coffee" />
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/vollkorn_bolditalic"
+            android:text="@string/about_us"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/about_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/radius"
+
+            android:fontFamily="@font/muli_extralight"
+            android:padding="12dp"
+            android:text="@string/about_description"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_below="@id/about_des"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:contentDescription="@string/icon1"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_des"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/location_icon"
+            android:fontFamily="@font/muli_light"
+            android:text="@string/location_blue_planet"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/contact_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_below="@id/location_icon"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/icon2"
+            android:src="@drawable/contact" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/contact_icon"
+            android:fontFamily="@font/muli_light"
+            android:text="@string/contact_0123456789"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/timings_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_below="@id/contact_icon"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/icon3"
+            android:src="@drawable/timings" />
+
+        <TextView
+            android:id="@+id/timings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/timings_icon"
+            android:fontFamily="@font/muli_light"
+            android:text="@string/timings_24_7"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

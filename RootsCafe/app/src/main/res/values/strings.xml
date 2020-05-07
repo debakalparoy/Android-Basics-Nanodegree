@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Roots</string>
+    <string name="banner">CoffeeBanner</string>
+    <string name="coffee_girl">CoffeeGirlPicture</string>
+    <string name="icon1">LocationIcon</string>
+    <string name="icon2">ContactIcon</string>
+    <string name="icon3">TimingIcon</string>
+    <string name="location_blue_planet">Location: Blue Planet</string>
+    <string name="contact_0123456789">Contact: +0123456789</string>
+    <string name="timings_24_7">Timings: 24/7</string>
+    <string name="about_us">About Us</string>
+    <string name="about_description">We\'ve always believed coffee should be something special, and this simple thought moves us everyday to source smarter, roast better, and delight more people again and again.</string>
+</resources>
