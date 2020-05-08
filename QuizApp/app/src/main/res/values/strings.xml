@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Quiz App</string>
+    <string name="appTitle">COVID-19</string>
+    <string name="question1">1. In which country was COVID-19 first reported?</string>
+    <string name="question2">2. What are the most common symptoms of COVID-19?</string>
+    <string name="question3">3. How can we make our hands safe?</string>
+    <string name="question4">4. COVID-19 belongs to which family of viruses?</string>
+    <string name="question5">5. Who\'s 𝗠𝗼𝘀𝘁 at Risk From Coronavirus?</string>
+    <string name="question6">6. Can women with confirmed or suspected COVID-19 breastfeed?</string>
+    <string name="Q1_A">New York, USA</string>
+    <string name="Q1_B">Rome, Italy</string>
+    <string name="Q1_C">Wuhan, China</string>
+    <string name="Q1_D">Wulai District, Taiwan</string>
+    <string name="Q2_A">Fever</string>
+    <string name="Q2_B">Dry cough</string>
+    <string name="Q2_C">Tiredness</string>
+    <string name="Q2_D">All of the above</string>
+    <string name="Q3_A"><![CDATA[Wash with soap & water for at least 20 seconds]]></string>
+    <string name="Q3_B">Exposing overselves to UV rays</string>
+    <string name="Q3_C">Using Hand Sanitaizers</string>
+    <string name="Q3_D">Using only plain water</string>
+    <string name="Q5_A"><![CDATA[Older people (>75 years)]]></string>
+    <string name="Q5_B">People With Lung Diseases</string>
+    <string name="Q5_C"><![CDATA[Infants & Toddlers]]></string>
+    <string name="Q5_D">People With Compromised Immune Systems</string>
+    <string name="Q6_B"><![CDATA[Yes, while maintaining proper sanitation & hygiene]]></string>
+    <string name="Q6_A">No</string>
+    <string name="submit_button">Submit</string>
+    <string name="Q1_ans">Ans (A) : The Coronavirus was first reported in the Wuhan district of China on December 2019.</string>
+    <string name="Q2_ans"><![CDATA[Ans (D) : Fever, Dry cough & tiredness are all common symptoms of COVID-19. Some people may experience: aches and pains, nasal congestion, runny nose, sore throat, diarrhoea.]]></string>
+    <string name="Q3_ans" tools:ignore="TypographyOther"><![CDATA[Ans (A) & (C) : Washing hands with soap and water is the best way to get rid of germs in most situations. If soap & water are not readily available, alcohol based sanitizers can also be used.]]></string>
+    <string name="Q4_ans">Ans (Coronavirus): The etiology of this illness is now attributed to a novel virus belonging to the 𝗰𝗼𝗿𝗼𝗻𝗮𝘃𝗶𝗿𝘂𝘀 (𝗖𝗼𝗩) 𝗳𝗮𝗺𝗶𝗹𝘆.</string>
+    <string name="Q5_ans"><a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-at-higher-risk.html"><![CDATA[Ans (A), (B) & (D) : People 65 years or older, people with asthama, people with compromised immune systems or people with livers diseases are more at risk of getting infected.]]></a></string>
+    <string name="Q6_ans"><a href="https://www.who.int/news-room/q-a-detail/q-a-on-covid-19-and-breastfeeding">Ans (B) : 𝗬𝗲𝘀. Women with confirmed or suspected COVID-19 𝗰𝗮𝗻 𝗯𝗿𝗲𝗮𝘀𝘁𝗳𝗲𝗲𝗱 if they wish to do so.</a></string>
+    <string name="Q5_ans_link"><a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-at-higher-risk.html">More info Here.</a></string>
+    <string name="Q6_ans_link"><a href="https://www.who.int/news-room/q-a-detail/q-a-on-covid-19-and-breastfeeding">More info Here.</a></string>
+    <string name="good_job">Good_Job</string>
+</resources>
