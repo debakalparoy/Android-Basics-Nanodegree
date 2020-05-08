@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cricket Mania</string>
+    <string name="team_a">TEAM A</string>
+    <string name="six">+6</string>
+    <string name="four">+4</string>
+    <string name="three">+3</string>
+    <string name="two">+2</string>
+    <string name="one">+1</string>
+    <string name="zero">+0</string>
+    <string name="wicket">Wicket</string>
+    <string name="team_b">TEAM B</string>
+    <string name="run_rate">Run Rate</string>
+    <string name="reset">RESET</string>
+    <string name="over">Over</string>
+    <string name="wickets">Wickets</string>
+    <string name="base_score">0</string>
+    <string name="score">Score</string>
+    <string name="logo">Logo</string>
+</resources>

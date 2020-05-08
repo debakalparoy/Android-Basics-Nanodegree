@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7ECEE"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/reset"
+            android:layout_marginTop="32dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Left Score Board. -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="52dp"
+                    android:text="@string/team_a"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/base_score"
+                    android:textColor="@android:color/black"
+                    android:textSize="64sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addSixForTeamA"
+                        android:text="@string/six" />
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addFourForTeamA"
+                        android:text="@string/four" />
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addThreeForTeamA"
+                        android:text="@string/three" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addTwoForTeamA"
+                        android:text="@string/two" />
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addOneForTeamA"
+                        android:text="@string/one" />
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addZeroForTeamA"
+                        android:text="@string/zero" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="52dp"
+                android:background="#3C3F41" />
+
+            <!-- Right Score Board. -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="52dp"
+                    android:text="@string/team_b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/base_score"
+                    android:textColor="@android:color/black"
+                    android:textSize="64sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addSixForTeamB"
+                        android:text="@string/six" />
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addFourForTeamB"
+                        android:text="@string/four" />
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addThreeForTeamB"
+                        android:text="@string/three" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addTwoForTeamB"
+                        android:text="@string/two" />
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addOneForTeamB"
+                        android:text="@string/one" />
+
+                    <Button
+                        style="@style/scoreButton"
+                        android:onClick="addZeroForTeamB"
+                        android:text="@string/zero" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/score"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/my_button_bg"
+            android:onClick="showWinner"
+            android:text="@string/score" />
+
+        <TextView
+            android:id="@+id/scoreResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/score"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:fontFamily="sans-serif"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/reset"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scoreResult"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:onClick="resetScore"
+            android:text="@string/reset" />
+    </RelativeLayout>
+</ScrollView>
