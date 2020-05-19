@@ -16,7 +16,7 @@
 
 ## [Project 6: News Application](https://github.com/DivineRoot/Android-Basics-Nanodegree/tree/master/NewsApp)
 
-<img src="NewsApp/Screenshots/1.jpg"  height="600">   <img src="NewsApp/Screenshots/video.gif"  height="600">
+<img src="NewsApp/Screenshots/video.gif"  height="600">
 
 ---
 
