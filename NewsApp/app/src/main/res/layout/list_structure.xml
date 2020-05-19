@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sectionName"
+                    style="@style/sectionName_authorName_date_time"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-medium"
+                    android:maxLines="1"
+                    android:textAllCaps="true"
+                    android:textSize="12sp"
+                    tools:text="World news" />
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/sectionName_authorName_date_time"
+                    android:textColor="@color/mainTextColor"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:textSize="16sp"
+                    tools:text="This a demo news statement just to test the app." />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/author"
+                    style="@style/sectionName_authorName_date_time"
+                    android:layout_gravity="end"
+                    android:textSize="12sp"
+                    tools:text="~No Author" />
+
+                <TextView
+                    android:id="@+id/date"
+                    style="@style/sectionName_authorName_date_time"
+                    android:layout_gravity="end"
+                    android:textSize="12sp"
+                    tools:text="2020-04-19" />
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/sectionName_authorName_date_time"
+                    android:layout_gravity="end"
+                    android:textSize="12sp"
+                    tools:text="16:11" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

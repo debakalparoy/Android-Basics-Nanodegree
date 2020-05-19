@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="output_test">Test-Case-Generate-output</string>
+    <string name="error_test">Test-Case-Error-generated</string>
+</resources>
