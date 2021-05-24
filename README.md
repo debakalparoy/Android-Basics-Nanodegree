@@ -17,7 +17,7 @@
 
 ## [Project 4: Tour Guide](https://github.com/DivineRoot/Android-Basics-Nanodegree/tree/master/TourGuide)
 
-<img src="TourGuide/Screenshots/places_1.jpg"  height="600"> <img src="TourGuide/Screenshots/food_1.jpg"  height="600"> <img src="TourGuide/Screenshots/hotel_1.jpg"  height="600"><img src="TourGuide/Screenshots/info_1.jpg"  height="600">
+<img src="TourGuide/Screenshots/places_1.jpg"  height="600"> <img src="TourGuide/Screenshots/food_1.jpg"  height="600"> <img src="TourGuide/Screenshots/hotel_1.jpg"  height="600"> <img src="TourGuide/Screenshots/info_1.jpg"  height="600">
 
 ## [Project 6: News Application](https://github.com/DivineRoot/Android-Basics-Nanodegree/tree/master/NewsApp)
 
