@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@color/colorTracks"
+            app:cardCornerRadius="32dp">
+
+            <TextView
+                android:id="@+id/tracks"
+                style="@style/HomeTextLayout"
+                android:drawableStart="@drawable/ic_music_note"
+                android:text="@string/tracks" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@color/colorArtists"
+            app:cardCornerRadius="32dp">
+
+            <TextView
+                android:id="@+id/artists"
+                style="@style/HomeTextLayout"
+                android:drawableStart="@drawable/ic_person_white"
+                android:text="@string/artists" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@color/colorAlbums"
+            app:cardCornerRadius="32dp">
+
+            <TextView
+                android:id="@+id/albums"
+                style="@style/HomeTextLayout"
+                android:drawableStart="@drawable/ic_album_white"
+                android:text="@string/albums" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@color/colorGenres"
+            app:cardCornerRadius="32dp">
+
+            <TextView
+                android:id="@+id/genres"
+                style="@style/HomeTextLayout"
+                android:drawableStart="@drawable/ic_genre_white"
+                android:text="@string/genres" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

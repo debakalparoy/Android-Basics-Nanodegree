@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="fontFamily">@font/circular_std_book</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Home Text layout theme. -->
+    <style name="HomeTextLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">32dp</item>
+        <item name="android:paddingBottom">32dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/Background</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/circular_std_book</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Home icon theme. -->
+    <style name="HomeIconLayout">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <!-- Tracks theme. -->
+    <style name="tracksTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+</resources>

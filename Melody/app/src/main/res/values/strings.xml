@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Melody</string>
+    <string name="tracks">Tracks</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="genres">Genres</string>
+    <string name="albumart">albumArt</string>
+</resources>
