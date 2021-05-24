@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Calcutta Companion</string>
+    <string name="category_places">Places</string>
+    <string name="category_food">Food</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_info">Info</string>
+
+    <!--    Price Tags -->
+    <string name="price_luxury">₹₹₹₹₹</string>
+    <string name="price_fine">₹₹₹₹</string>
+    <string name="price_casual">₹₹₹</string>
+    <string name="price_lite">₹₹₹</string>
+    <string name="price_cheap">₹</string>
+
+    <!--    Places Category Strings-->
+    <string name="places_victoria_name">Victoria Memorial</string>
+    <string name="places_victoria_description">The Victoria Memorial is a large marble building, which is considered to be the pride of Kolkata.
+        Built between 1906 and 1921, it is dedicated to the memory of Queen Victoria.
+        Now, it is a museum and a popular tourist spot under the Ministry of Culture.</string>
+    <string name="places_victoria_address">Victoria Memorial Hall, 1, Queens Way, Maidan, Kolkata, West Bengal 700071</string>
+    <string name="places_victoria_schedule">10:00–18:00. Tuesdays closed.</string>
+    <string name="places_victoria_price">₹20~₹200</string>
+    <string name="places_fort_name">Fort William Palace</string>
+    <string name="places_fort_description">Fort William is a fort built in Kolkata on the eastern banks of the River
+        Hooghly, the major distributary of Ganges, during the early years of the Bengal Presidency in the
+        British India.</string>
+    <string name="places_fort_address">Maidan, Fort William, Hastings, Kolkata, West Bengal 700021</string>
+    <string name="places_fort_schedule">Mon-Sun : 10:00 A.M – 5:30 P.M</string>
+    <string name="sight_price_free">Free</string>
+    <string name="places_bridge_name">Howrah Bridge</string>
+    <string name="places_bridge_description">Titled as the ‘oldest but the busiest’ place in Kolkata, the Howrah Bridge
+        was built over the Hooghly river to ensure connectivity between the two major cities of Kolkata and Howrah.</string>
+    <string name="places_bridge_address">Howrah, West Bengal 700001</string>
+    <string name="places_bridge_schedule">Always open</string>
+    <string name="places_science_city_name">Science City</string>
+    <string name="places_science_city_description">Take some time to visit the architectural wonder of the Science City,
+        which is the largest science centre throughout India. Housing a Space Odyssey, Dynamotion, Evolution Park Theme
+        Tour, Maritime Centre, and Earth Exploration Hall, it is one of the best Kolkata tourist places in terms of
+        technology, and architecture.</string>
+    <string name="places_science_city_address">East Topsia, Topsia, Kolkata, West Bengal 700105</string>
+    <string name="places_science_city_schedule">Mon-Sun : 09:00 AM - 08:00 PM</string>
+    <string name="places_science_city_price">₹200</string>
+    <string name="places_science_city_phone">033 2285 4343</string>
+    <string name="places_belur_name">Belur Math</string>
+    <string name="places_belur_description">Belur Math is an important pilgrimage site and the headquarters of Ramakrishna Math and Mission.
+        It is one of the best Kolkata tourist places for people who wish to seek inner peace.</string>
+    <string name="places_belur_address">Belur, Howrah, West Bengal 711202</string>
+    <string name="places_belur_phone"> 033 2654 1144</string>
+    <string name="places_belur_schedule">Mon-Sun : 08:30 AM - 06:00 PM</string>
+    <string name="places_museum_name">Indian Museum</string>
+    <string name="places_museum_description">The Indian Museum in Kolkata, West Bengal, India, also referred to as the
+        Imperial Museum at Calcutta in colonial-era texts, is the ninth oldest museum of the world, oldest museum in India
+        and the largest museum in India.</string>
+    <string name="places_museum_address">27, Jawaharlal Nehru Rd, Dharmatala, Taltala, Kolkata 700016</string>
+    <string name="places_museum_price">₹100</string>
+    <string name="places_museum_phone">033 2252 1790</string>
+    <string name="places_museum_schedule">Tue-Sun : 10:00 AM - 05:00 PM</string>
+    <string name="places_coffee_house_name">Indian Coffee House</string>
+    <string name="places_coffee_house_description">It has been for a long time a regular hang out and a renowned meeting place (adda)
+        for intellectuals and students (and ex-students) of the Presidency College, University of Calcutta, and other
+        institutions in College Street. It has played an important part in Calcutta\'s (Kolkata) cultural history and known
+        as the hub of intellectual debates.</string>
+    <string name="places_coffee_house_address">Sharda Book Stall, No.15 Near, Bankim Chatterjee St, College Square, Kolkata, West Bengal 700073</string>
+    <string name="places_coffee_house_price">₹14~₹110</string>
+    <string name="places_coffee_house_phone">090077 98519</string>
+    <string name="places_coffee_house_schedule">Mon-Sun : 9:00 AM - 09:00 PM</string>
+    <string name="places_botanical_gardens_name">Botanical Gardens</string>
+    <string name="places_botanical_gardens_description">The Botanical Gardens are a haven amidst the chaos of Kolkata. Lush
+        and rich with flora, all your eyes can see are shades of green that soothe and relax a tired mind. </string>
+    <string name="places_botanical_gardens_address">1, 2-8-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo</string>
+    <string name="places_botanical_gardens_phone">+91 3326685357</string>
+    <string name="places_botanical_gardens_price">₹100</string>
+    <string name="places_botanical_gardens_schedule">Mon-Sun : 08:30 AM - 05:00 PM</string>
+
+    <!--    Foods Category Strings-->
+    <string name="food_oudh">Oudh 1590</string>
+    <string name="food_oudh_description">Traditional Awadhi dishes &amp; cauldron-cooked curries served
+        amid 16th-century period decor.</string>
+    <string name="food_oudh_address">Shop P 562, Hemanata Mukhopadhyay Sarani, Southern Avenue, Kolkata</string>
+    <string name="food_oudh_phone">+918961556551</string>
+    <string name="food_oudh_schedule">Mon-Sun : 12noon – 3:30pm, 6:30pm – 10:30pm</string>
+    <string name="food_arsalan_name">Arsalan</string>
+    <string name="food_arsalan_description">Spacious restaurant &amp; catering service for a Mughlai menu &amp; a range of specialty biryanis..</string>
+    <string name="food_arsalan_address">191, Park Street, Near 7 Point Crossing, Park Circus Area, Kolkata</string>
+    <string name="food_arsalan_phone">+91 3322844019</string>
+    <string name="food_arsalan_schedule">Mon-Sun : 10:30am – 12:45am</string>
+    <string name="food_flurys_name">Flurys</string>
+    <string name="food_flurys_description">Open since 1927, this stylish tearoom serves Indian &amp; European cakes/pastries, plus light fare.</string>
+    <string name="food_flurys_address">18, Park street Area, Kolkata</string>
+    <string name="food_flurys_phone">+91 3340007452</string>
+    <string name="food_flurys_schedule">Mon-Sun : 7:30am – 11pm</string>
+    <string name="food_oh_calcutta_name">Oh! Calcutta</string>
+    <string name="food_oh_calutta_description">Stylish chain dining room for a menu specialising in the unique cooking of Calcutta.</string>
+    <string name="food_oh_calcutta_address">10/3 Elgin Road 4th Floor, Forum Mall, Kolkata 700016 India</string>
+    <string name="food_oh_calcutta_phone">+91 33 2283 7161</string>
+    <string name="food_oh_calcutta_schedule">Mon-Sat : 12:30 AM - 3:30 PM ; 7:00 PM - 11:00 PM</string>
+    <string name="food_haldiram_name">Haldiram\'s Prabhuji</string>
+    <string name="food_haldiram_description">Indian dishes and a range of special namkeens from a simple chain outlet.</string>
+    <string name="food_haldiram_address">P420, Kazi Nazrul Islam Avenue, V.I.P. Road, Kaikhali, Kolkata</string>
+    <string name="food_haldiram_phone">+91 3340144444</string>
+    <string name="food_haldiram_schedule">Mon-Sun : 9am – 8:45pm</string>
+    <string name="food_mullicks_name">Balaram Mullick &amp; Radharam Mullick Sweets</string>
+    <string name="food_mullicks_description">Enduring counter-serve specializing in traditional Indian sweets &amp; baked goods since 1885.</string>
+    <string name="food_mullicks_address">2, Paddapukur Road, Jadubabur Bazar, Bhowanipore, Kolkata 700020</string>
+    <string name="food_mullicks_phone">+91 3324222211</string>
+    <string name="food_mullicks_schedule">Mon-Sun : 10am – 10pm</string>
+    <string name="food_mainland_china_name">Mainland China</string>
+    <string name="food_mainland_china_description">Chinese Flavors That Truly Have a \'Different\' Tantalizing Effect on Taste Buds.</string>
+    <string name="food_mainland_china_address">3A, Uniworth House, Gurusaday Road, Ballygunge, Kolkata</string>
+    <string name="food_mainland_china_phone">+91 6292192008</string>
+    <string name="food_mainland_china_schedule">Mon : 12:45pm – 3:30pm, 7pm – 11pm; Sat-Sun : 12:30pm – 3:30pm, 7pm – 11:30pm</string>
+
+    //Hotels Category Strings
+    <string name="hotel_hyatt_name">Hyatt Regency</string>
+    <string name="hotel_hyatt_description">Hyatt Regency Kolkata is a luxury business hotel in Kolkata (or “Calcutta”),
+        India. The hotel creates the feel of a private cocoon away from the complexities of modern living without giving
+        up any of its luxuries. Hyatt Regency Kolkata is located next to Salt Lake Stadium &amp; 15 mins drive from IT hub and
+        is a preferred business destination of East India. </string>
+    <string name="hotel_hyatt_address">JA - 1 Sector III Salt Lake City, Kolkata 700098</string>
+    <string name="hotel_hyatt_phone">+91 33 6820 1234</string>
+    <string name="hotel_westin_name">The Westin</string>
+    <string name="hotel_westin_description">We are conveniently located in New Town Kolkata, 8 Kms from the Airport. Our
+        304 well-appointed rooms and suites are one of the largest in the city offering inspiring views of the cityscape.
+        We offer a variety of dining options including 3132, the highest rooftop bar in the city and the award winning
+        Seasonal Tastes. </string>
+    <string name="hotel_westin_address">Plot No. CBD/2, Action Area - II, New Town, Rajarhat, Kolkata 585316</string>
+    <string name="hotel_westin_phone">033 4037 1234</string>
+    <string name="hotel_jw_marriott_name">JW Marriott</string>
+    <string name="hotel_jw_marriott_description">JW Marriott Hotel Kolkata is located about one kilometre from Science City
+        museum in Kolkata. This modern hotel offers high-tech rooms and world-class amenities including a vast infinity
+        pool and a luxurious spa.</string>
+    <string name="hotel_jw_marriott_address">4 A,J.B.S Haldane Avenue, 700105, Kolkata</string>
+    <string name="hotel_jw_marriott_phone">033 6633 0000</string>
+    <string name="hotel_montel_name">Monotel - Luxury Business Hotel</string>
+    <string name="hotel_montel_description">Monotel is a Luxury Business Hotel, Located in the IT Hub of Kolkata.
+        Being an Eco friendly hotel, Monotel is an environmentally conscious hotel that has heralded a new standard of
+        environmental responsibility in the hospitality industry.</string>
+    <string name="hotel_montel_address">Sector - V Dm 2 Salt Lake, Kolkata 700091   </string>
+    <string name="hotel_montel_phone">033 4030 2000</string>
+    <string name="hotel_pride_name">The Pride Hotel</string>
+    <string name="hotel_pride_description">Experience the rich cultural tapestry of Calcutta garnished with the modern charm
+        of our 5-star hotel in Kolkata. Pride Plaza Hotel is enclosed within the business hubs of Kolkata city, offering
+        luxury accommodation for corporates and leisure travellers alike.</string>
+    <string name="hotel_pride_address">New Town Terminus, B.G-12, Action Area I, 1-B, Newtown, Kolkata 700156</string>
+    <string name="hotel_pride_phone">033 4025 9999</string>
+    <string name="hotel_oberoi_grand_name">The Oberoi Grand</string>
+    <string name="hotel_oberoi_grand_description">Located in Kolkata’s main shopping district, the New Market and business
+        district, The Oberoi Grand Kolkata houses an outdoor pool, gym and spa.</string>
+    <string name="hotel_oberoi_grand_address">15 Jawaharlal Nehru Road, Kolkata 560001</string>
+    <string name="hotel_oberoi_grand_phone">033 2249 2323</string>
+    <string name="hotel_itc_royal_name">ITC Royal Bengal</string>
+    <string name="hotel_itc_royal_description">Situated in Kolkata, 7 km from Indian Museum, ITC Royal Bengal, a Luxury
+        Collection Hotel, Kolkata features accommodation with a restaurant, free private parking, a fitness centre and a
+        bar. Featuring a garden, the property is located within 7 km of Nandan. The accommodation offers a 24-hour front desk,
+        room service and currency exchange for guests.</string>
+    <string name="hotel_itc_royal_address">1 JBS Haldane Avenue, Kolkata 700046</string>
+    <string name="hotel_itc_royal_phone">033 4446 4646</string>
+    <string name="hotel_taj_name">Taj Bengal</string>
+    <string name="hotel_taj_description">Set in landscaped grounds in downtown Kolkata, Taj Bengal offers 5-star luxury
+        with elegant rooms, an outdoor pool and spa. It features a 24-hour gym, free parking and 6 restaurants.</string>
+    <string name="hotel_taj_address">34B, Belvedere Road, Alipore, Kolkata 700027</string>
+    <string name="hotel_taj_phone">033 6612 3939</string>
+
+    <!--    Info Category Strings-->
+    <string name="info_city_name">About the 𝙏𝙃𝙀 𝘾𝙄𝙏𝙔 𝙊𝙁 𝙅𝙊𝙔</string>
+    <string name="info_city_description">The second biggest city of the country, Kolkata was formerly called as 𝗖𝗮𝗹𝗰𝘂𝘁𝘁𝗮.
+        Being the 𝗰𝗮𝗽𝗶𝘁𝗮𝗹 𝗼𝗳 𝘁𝗵𝗲 𝗕𝗿𝗶𝘁𝗶𝘀𝗵 𝗥𝗮𝗷, Kolkata is a city that holds an extremely crucial place in the economy,
+        politics and culture of India. Being the 𝗖𝗮𝗽𝗶𝘁𝗮𝗹 𝗼𝗳 𝗪𝗲𝘀𝘁 𝗕𝗲𝗻𝗴𝗮𝗹, Kolkata is also known as the 𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 𝗰𝗮𝗽𝗶𝘁𝗮𝗹 𝗼𝗳 𝗜𝗻𝗱𝗶𝗮.
+        With a quintessential charm that it has retained apart from just the modernization, Kolkata is amongst the
+        four metropolitan cities of India. With a dense heritage, Kolkata is densely populated and is situated at the
+        banks of river Ganga. Being famous for its culture, Kolkata is known for its people, food, music, literature
+        and movies as well. Being the home of few major and great thinkers, artists, film makes and writers, Kolkata is
+        associated with 𝗥𝗮𝗯𝗶𝗻𝗱𝗿𝗮𝗻𝗮𝘁𝗵 𝗧𝗮𝗴𝗼𝗿𝗲, 𝗕𝗮𝗻𝗸𝗶𝗺 𝗖𝗵𝗮𝗻𝗱𝗿𝗮 𝗖𝗵𝗮𝘁𝘁𝗼𝗽𝗮𝗱𝗵𝗮𝘆𝗮𝘆, 𝗦𝗮𝗿𝗮𝘁 𝗖𝗵𝗮𝗻𝗱𝗿𝗮 𝗖𝗵𝗮𝘁𝘁𝗼𝗽𝗮𝗱𝗵𝗮𝘆𝗮𝘆 and 𝗦𝙖𝘁𝗮𝘆𝗷𝗶𝘁 𝗥𝗼𝘆.
+        No wonder, Kolkata is indeed an inspiration for the country in the field of art literature and theater.
+        Considered as if Bangalore is the Seattle of India then Kolkata is the sub continent\’s London. The \‘in your face\’
+        city that leaves every single visitor in shock with its charm, abject poverty inexplicably with crumbling the gems of
+        British Raj era, sprawling gardens and historical colleges. Kolkata is a city one can hate or love but will never forget
+        in his lifetime.</string>
+    <string name="info_helpful_tips">Helpful Tips!</string>
+    <string name="info_helpful_tips_description">>> 𝙃𝙤𝙬 𝙩𝙤 𝙂𝙚𝙩 𝘼𝙧𝙤𝙪𝙣𝙙? The bright yellow \‘Ambassador Classics\’ with comfy bucket seats
+        are one of the things you\’ll first notice when you travel to Kolkata. Also you can take the metro/subway. \n \n
+
+        >>𝙍𝙚𝙣𝙩 𝙖 𝙋𝙤𝙘𝙠𝙚𝙩 𝙒𝙞𝙛𝙞 𝘿𝙚𝙫𝙞𝙘𝙚 Having a strong and uninterrupted wifi connection is a must when traveling, especially when you’re in a city
+        as chaotic as Kolkata. Being able to navigate with Google Maps alone makes it worthwhile. One option is 𝘗𝘰𝘬𝘦𝘧𝘪 which is a global wifi device,
+        but if you need to rent one in India, then you can do so through 𝘒𝘭𝘰𝘰𝘬. \n \n
+
+        >> 𝙒𝙖𝙣𝙩 𝙩𝙤 𝙚𝙭𝙥𝙡𝙤𝙧𝙚 𝙢𝙤𝙧𝙚? Here\'s a list of Things to do, Places to visit &amp; foods to try: \n \n
+        > 𝘛𝘩𝘪𝘯𝘨𝘴: \n
+            - Get fascinated by the statues of deities in potter’s colony of Kolkata (𝙆𝙪𝙢𝙤𝙧𝙩𝙤𝙡𝙞). \n
+            - Explore Mallick Ghat Flower Market. \n
+            - Visit Eden Garden – Take A Plunge Into History \n
+            - 𝙏𝙧𝙖𝙢𝙨 We all know that Kolkata is the only Indian state to serve the busy bees with the Tram service beside other
+                modes of travel. But do you know that it has been operating since the year 1902! The Calcutta Tramways Company
+                today runs the oldest electric trams in Asia.
+            - Take a boat ride in 𝘗𝘳𝘪𝘯𝘤𝘦𝘱 𝘎𝘩𝘢𝘵 during dawn and 𝘞𝘢𝘵𝘤𝘩 𝘛𝘩𝘦 𝘚𝘶𝘯 𝘎𝘰 𝘋𝘰𝘸𝘯. \n \n
+
+        > 𝘗𝘭𝘢𝘤𝘦𝘴: \n
+            - New Market \n
+            - Visit kolkata during 𝘿𝙪𝙧𝙜𝙖 𝙋𝙪𝙟𝙖 (One of my favourite festivals of India :D). \n
+            - Visit 𝘋𝘢𝘬𝘴𝘩𝘪𝘯𝘦𝘴𝘩𝘸𝘢𝘳 and 𝘒𝘢𝘭𝘪𝘨𝘩𝘢𝘵 temple. \n
+            - Visit the Colonial Structures such as 𝘚𝘵. 𝘗𝘢𝘶𝘭\’𝘴 𝘊𝘢𝘵𝘩𝘦𝘥𝘳𝘢𝘭, 𝘔𝘢𝘳𝘣𝘭𝘦 𝘗𝘢𝘭𝘢𝘤𝘦, 𝘒𝘰𝘭𝘬𝘢𝘵𝘢 𝘛𝘰𝘸𝘯 𝘏𝘢𝘭𝘭,
+                𝘊𝘢𝘭𝘤𝘶𝘵𝘵𝘢 𝘏𝘪𝘨𝘩 𝘊𝘰𝘶𝘳𝘵 𝘢𝘯𝘥 𝘉𝘦𝘭𝘷𝘦𝘥𝘦𝘳𝘦 𝘌𝘴𝘵𝘢𝘵𝘦.
+            - Day Trip to 𝘚𝘶𝘯𝘥𝘢𝘳𝘣𝘢𝘯𝘴. \n \n
+
+        > Foods: \n
+            - Want something for breakfast? try 𝘒𝘰𝘤𝘩𝘶𝘳𝘪 and 𝘢𝘭𝘰𝘰𝘳 𝘥𝘶𝘮. \n
+            - Craving for an snack already? try 𝙋𝙝𝙪𝙘𝙝𝙠𝙖. \n
+            - Try 𝘐𝘭𝘪𝘴𝘩 𝘮𝘢𝘢𝘤𝘩 or other fish recipes for lunch options &amp; end the meal with 𝙈𝙞𝙨𝙝𝙩𝙞 𝘿𝙤𝙞. \n
+            - Spend a pleasant evening at the ghats of river Ganga munching on 𝘛𝘦𝘭𝘦𝘣𝘩𝘢𝘫𝘢 and 𝘑𝘩𝘢𝘭 𝘔𝘶𝘳𝘪 while
+                enjoying the sunset. \n
+            Or, Have a 𝘒𝘢𝘵𝘩𝘪 𝘙𝘰𝘭𝘭 at 𝘕𝘪𝘻𝘢𝘮\'𝘴
+            - End the day on a sweet note with 𝙍𝙤𝙨𝙝𝙤𝙜𝙤𝙡𝙡𝙖 or chanar 𝙎𝙖𝙣𝙙𝙚𝙨𝙝. \n
+        </string>
+</resources>
